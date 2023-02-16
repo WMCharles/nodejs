@@ -7,7 +7,7 @@ app.get('/', (req, res, next) => {
 })
 
 app.post('/', (req, res, next) => {
-    res.send("Hello This is a post request!")
+    res.send("Hello This is a POST request!")
 })
 
 // message on terminal
